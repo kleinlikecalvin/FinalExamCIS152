@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-image: url("https://media.istockphoto.com/vectors/my-delicious-chocolate-chip-cookies-vector-illustration-seamless-vector-id1284048105?k=20&m=1284048105&s=612x612&w=0&h=m0NocsdX3Jd5wLeJwfBJ4N2O4aypm24bhjj7I6SOS5E=");
+}
+.mainContainer {
+  margin: 20px auto;
+  width: 800px;
+  background-color: green;
+  border: 3px solid burlywood;
+}
+header {
+  text-align: center;
+  background-color: white;
+  color: green;
+}
+.colContainer {
+  position: relative;
+}
+h2 {
+  text-align: center;
+  color: burlywood;
+}
+#leftCol,
+#rightCol {
+  width: 378px;
+  padding: 0 10px;
+  margin: 0;
+}
+#leftCol {
+  float: left;
+  border-right: 3px solid burlywood;
+}
+img {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  border: 3px solid burlywood;
+}
+#leftCol p {
+  text-align: center;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: yellow;
+}
+a:hover {
+  color: blue;
+}
+#rightCol {
+  float: right;
+}
+ul li {
+  list-style-type: "🍪 ";
+}
+footer {
+  clear: both;
+  border-top: 3px solid burlywood;
+  padding: 0 10px;
+}
